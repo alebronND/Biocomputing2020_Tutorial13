@@ -10,7 +10,9 @@ rN2=-0.1
 K=1000000
 timesteps=500
 # Set up an output to populate
+# non-mutant data
 Ns=data.frame(time=1:timesteps,sim1=rep(0,timesteps))
+# mutant data
 Ms=data.frame(time=1:timesteps,sim1=rep(0,timesteps))
 Ns[1,2]=99
 Ms[1,2]=1
